@@ -1,0 +1,19 @@
+{
+    "name": "cars",
+    "version": "1.0.0",
+    "description": "Cars chaincode implemented in JavaScript",
+    "engines": {
+        "node": ">=8.4.0",
+        "npm": ">=5.3.0"
+    },
+    "scripts": {
+        "start": "node car.js"
+    },
+    "engineStrict": true,
+    "author": "Hyperledger",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "fabric-contract-api": "~1.4.0",
+        "fabric-shim": "~1.4.0"
+    }
+}
